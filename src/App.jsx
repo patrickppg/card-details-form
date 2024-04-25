@@ -1,11 +1,7 @@
+import AddCardForm from './components/AddCardForm/component'
 import './App.css'
 
-function App() {
-  return (
-    <>
-      <p>Hello</p>
-    </>
-  )
+export default function App() {
+  return <AddCardForm />
 }
 
-export default App
